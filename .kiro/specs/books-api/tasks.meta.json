@@ -1,0 +1,452 @@
+{
+  "pbtResults": {
+    "2.3 Write property test for invalid input rejection (Property 2)": {
+      "status": "failed",
+      "failingExample": "Test file created successfully but cannot be verified due to missing .NET SDK in the environment. The test file at c:\\Users\\61557\\kiro-demo\\BooksApi.Tests\\Integration\\InvalidInputTests.cs implements FsCheck property tests for all invalid input scenarios.",
+      "lastRunTimestamp": 1785223394617
+    }
+  },
+  "executionHistory": {
+    "1.1 Create the ASP.NET Core Web API project and add required NuGet packages": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785221997200
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222009674
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222809871
+      }
+    ],
+    "2.1 Create the `Book` entity class": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785221998552
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222819552
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222878989
+      }
+    ],
+    "2.2 Create `CreateBookDto` and `UpdateBookDto`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785221999813
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222888729
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223209383
+      }
+    ],
+    "2.3 Write property test for invalid input rejection (Property 2)": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785221999968
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223216813
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223405689
+      }
+    ],
+    "3.1 Create `BookDbContext` and configure the Books table": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000106
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222820028
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222879623
+      }
+    ],
+    "3.2 Create and apply the initial EF Core migration": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000352
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222889116
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223209768
+      }
+    ],
+    "4.1 Define `IBookRepository` interface": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000485
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222889471
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223210077
+      }
+    ],
+    "4.2 Implement `BookRepository`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000614
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223220438
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223405984
+      }
+    ],
+    "4.3 Write unit tests for `BookRepository`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000728
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223414970
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223919208
+      }
+    ],
+    "5.1 Implement `GetAll` and `GetById` actions": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222000883
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223415365
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223919851
+      }
+    ],
+    "5.2 Implement `Create` action": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001016
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223938442
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224384040
+      }
+    ],
+    "5.3 Implement `Update` action": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001131
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223938661
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224384318
+      }
+    ],
+    "5.4 Implement `Delete` action": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001251
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223946403
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224384647
+      }
+    ],
+    "5.5 Write unit tests for `BooksController`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001381
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224395683
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242596740
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242621989
+      }
+    ],
+    "6. Checkpoint — Ensure all unit tests pass": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001490
+      },
+      {
+        "executionId": "8e92735e-2010-45c4-98e1-e3c90999a285",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242460242
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242596975
+      }
+    ],
+    "7.1 Create `ExceptionHandlingMiddleware`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001601
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223415708
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223919509
+      }
+    ],
+    "7.2 Write unit tests for `ExceptionHandlingMiddleware`": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001725
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224396020
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597108
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242622286
+      }
+    ],
+    "8.1 Set up `WebApplicationFactory` test harness": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222001849
+      },
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785224394862
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597248
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242622602
+      }
+    ],
+    "8.2 Write integration tests for all five endpoints": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002166
+      },
+      {
+        "executionId": "8e92735e-2010-45c4-98e1-e3c90999a285",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242461710
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597395
+      }
+    ],
+    "9.1 Write property test for create-then-retrieve round trip (Property 1)": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002304
+      },
+      {
+        "executionId": "8e92735e-2010-45c4-98e1-e3c90999a285",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242462111
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597523
+      }
+    ],
+    "9.2 Write property test for update reflects submitted fields (Property 3)": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002447
+      },
+      {
+        "executionId": "8e92735e-2010-45c4-98e1-e3c90999a285",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242462465
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597662
+      }
+    ],
+    "9.3 Write property test for delete removes the record (Property 4)": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002707
+      },
+      {
+        "executionId": "8e92735e-2010-45c4-98e1-e3c90999a285",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242462774
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242597811
+      }
+    ],
+    "9.4 Write property test for non-existent Id returns 404 (Property 5)": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002849
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242598113
+      }
+    ],
+    "10. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222002994
+      },
+      {
+        "executionId": "6a689348-ea9c-4485-8ff7-dd4840bc9c9c",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785242598329
+      }
+    ],
+    "1. Scaffold project structure and add NuGet packages": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785222810018
+      }
+    ],
+    "3. Implement `BookDbContext` and EF Core configuration": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223209885
+      }
+    ],
+    "2. Define data models and DTOs": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223405776
+      }
+    ],
+    "4. Implement the Repository layer": [
+      {
+        "executionId": "cffd3d4e-ff10-44a4-ab7d-f2875dd6dde1",
+        "chatSessionId": "sess_818deab1-bfee-4341-ba0b-9da233da84bf",
+        "timestamp": 1785223919336
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+Create a .NET core web API alication sed to manage the CRUD operations on books data. Book model contains Id, Title, Author, Pages, Language, Genre and CvoerIamgeUrl. Implement the following APIs 
+1) Get all books
+2) Get a book by Id
+3)Add a Book
+4) Delete a Book
+5) Update a book
+Use Entity framework core with SQLite. Use repository pattern
