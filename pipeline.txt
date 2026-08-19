@@ -1,0 +1,371 @@
+pipeline {
+    agent none
+  
+    options {
+        timeout(time: 90, unit: 'MINUTES')
+        buildDiscarder(logRotator(numToKeepStr: '5'))
+    }
+    parameters {
+       choice(name: 'ENVIRONMENT', choices: ['SIT', 'UAT'], description: 'Select the deployment environment')
+       choice(name: 'STACK', choices: ['Both','App', 'Worker'], description: 'Select the deployment stack')
+       
+    }
+
+    environment {
+        // assume role parameters
+        ROLE_ARN = 'arn:aws:iam::405937402513:role/inform-admin-bootstrap'
+        ROLE_SESSION_NAME = 'saig-digital-nonprod'
+        AWS_REGION = 'us-east-1'
+        
+        // bit bucket parameter
+        BITBUCKET_REPO = 'git@bitbucket.org:sai-global/commandcenter.git'
+       
+        
+        ECR_URL = "405937402513.dkr.ecr.us-east-1.amazonaws.com"
+        ECR_REPO = "cc-deployer"
+        S3_BUCKET_NONPROD = 's3://saig-digital-nonprod-deploy-usea1/deployments/ccentre/'
+        S3_BUCKET_PROD = 's3://saig-digital-prod-deploy-usea1/deployments/ccentre/'
+    }
+    
+    stages {
+        stage('Prepare env variables and directories') {
+             agent any
+             
+             steps {
+                  script {
+                    env.JENKINS_WORKSPACE = sh(script: 'pwd', returnStdout: true).trim()
+                    env.BUILD_PATH ="build_${env.BUILD_ID}"
+                    env.REPO_PATH = "${env.BUILD_PATH}/repo"
+                    env.NPM_CACHE_FOLDER_NAME="npm_cache"
+                    env.COMPOSER_CACHE_FOLDER_NAME="composer_cache"
+                    
+                    env.COMPOSER_CACHE="${env.JENKINS_WORKSPACE}/${env.COMPOSER_CACHE_FOLDER_NAME}"
+                    env.NPM_CACHE = "${env.JENKINS_WORKSPACE}/${env.NPM_CACHE_FOLDER_NAME}"
+                    env.SELECTED_BRANCH = params.ENVIRONMENT.toLowerCase()
+                    env.SELECTED_STACK = params.STACK.toLowerCase()
+                    env.MOUNT_PATH="/data/workspace/${env.JOB_NAME}"
+                 
+                    echo "NODE_NAME=${env.NODE_NAME}"
+                    echo "NODE_LABELS=${env.NODE_LABELS}"
+                env.BUILD_NODE_NAME = env.NODE_NAME
+  
+                    
+                    sh """
+                     rm -rf "${env.BUILD_PATH}"
+                        mkdir -p "${env.BUILD_PATH}"
+                        mkdir -p "${env.REPO_PATH}"
+                        mkdir -p "${env.COMPOSER_CACHE}"
+                        mkdir -p "${env.NPM_CACHE}"
+                      
+                     """
+                    echo "Created build folder : ${env.JENKINS_WORKSPACE}/${env.BUILD_PATH}"   
+                  }
+             }
+        }
+        
+        
+        stage('Clone repo from Bitbucket') {
+            agent any
+            steps {
+                script {
+       
+                    echo "📥 Cloning branch: ${env.SELECTED_BRANCH}"
+
+                    // Clone repository using SSH credentials
+                    sshagent(['f8cf421a-ad54-478d-9045-17ff65c9a697']) {
+                        sh """
+                            set -e
+                            cd "${env.REPO_PATH}"
+                            git clone --depth 1 --branch ${env.SELECTED_BRANCH} ${BITBUCKET_REPO} .
+                            git config --local --add safe.directory "$PWD"
+                            echo "Cloned repository contents:"
+                            ls -la
+                            ls -la engine
+                           
+                        """
+                    }
+                }
+            }
+        }
+        
+	    stage('Authenticate with AWS ECR & Pull Docker Image') {
+            agent any  
+            steps {
+                
+                script {
+                    try {
+                       
+        
+                        sh """
+                            echo "🔑 Logging in to AWS ECR..."
+                            echo "  aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $ECR_URL"
+                            aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $ECR_URL
+        
+                            echo "📥 Pulling Docker image: $ECR_URL/$ECR_REPO:${env.SELECTED_BRANCH} ..."
+                            docker pull $ECR_URL/$ECR_REPO:${env.SELECTED_BRANCH}
+                        """
+                    } catch (Exception e) {
+                        echo "❌ ERROR: AWS ECR authentication or Docker pull failed!"
+                        error("AWS ECR authentication failed. Check IAM permissions.")
+                    }
+                }
+            }
+        }
+
+
+        stage('Run composer') {
+            // Use a single Docker container for all dependency steps
+            agent {
+                docker {
+                    image "${env.ECR_URL}/${ECR_REPO}:${params.ENVIRONMENT.toLowerCase()}"
+                   
+                    args "--user=1000:1000 -v /var/run/docker.sock:/var/run/docker.sock -v ${env.BUILD_PATH}:/app:rw -v ${env.MOUNT_PATH}/${env.COMPOSER_CACHE_FOLDER_NAME}:/tmp/.cache/composer:rw  -w /app"
+                }
+            }
+            steps {
+                // Optional: Verify working directory and mounted content
+                sh 'echo "Working Directory:" && pwd && ls -la && php -v'
+                sh 'chown -R 1000:1000 "/tmp/.cache/composer"'
+                script{
+                parallel (
+                        "Composer Install (Main)": {
+                          dir("${env.REPO_PATH}") {
+                                sh """
+                                  set -e
+                                  
+                                  echo "Running Composer install in main directory..."
+                                  composer install --no-dev --no-interaction --prefer-dist
+                                """
+                            }
+                        },
+                        "Composer Install (Engine)": {
+                          dir("${env.REPO_PATH}/engine") {
+                                sh """
+                                  set -e
+                                 
+                                  echo "Running Composer install in engine directory..."
+                                  composer install --no-interaction --prefer-dist
+                                """
+                            }
+                        }
+                    )
+                }
+               
+            }
+        }
+        
+        
+        stage('Run NPM install') {
+            when {
+                expression { env.SELECTED_STACK == "both" || env.SELECTED_STACK == "app" }
+            }
+   
+            agent {
+                docker {
+                    image "${env.ECR_URL}/${ECR_REPO}:${env.SELECTED_BRANCH}"
+                    args " --user 1000:1000 -e HOME=/tmp -e NPM_CONFIG_CACHE=/tmp/.npm -v /var/run/docker.sock:/var/run/docker.sock -v ${env.BUILD_PATH}:/app:rw -v ${env.MOUNT_PATH}/${env.NPM_CACHE_FOLDER_NAME}:/tmp/.npm:rw -w /app"
+                }
+            }
+            
+            steps {
+                dir("${env.REPO_PATH}/engine") {
+                   
+                    echo "Setting npm globals and copying environment file..."
+                    sh """
+                        set -e
+                        mkdir -p /tmp/.npm
+                        npm config set fund false
+                        npm config set audit false
+                        npm config set progress false
+                        npm config set cache /tmp/.npm
+                    
+                    """
+                    echo "Run NPM install..."
+                     sh '''
+                            set -e
+                            echo "Running npm install in engine directory..."
+                            npm install --prefer-offline --no-audit --progress=false
+                        '''
+                        
+                }
+            }
+        }
+
+
+        stage('Run NPM Run Prod') {
+            when {
+                expression { env.SELECTED_STACK == "both" || env.SELECTED_STACK == "app" }
+            }
+   
+            agent {
+                docker {
+                    image "${env.ECR_URL}/${ECR_REPO}:${env.SELECTED_BRANCH}"
+                    args "--user=1000:1000 -e HOME=/tmp -e NPM_CONFIG_CACHE=/tmp/.npm -v /var/run/docker.sock:/var/run/docker.sock -v ${env.BUILD_PATH}:/app:rw -v ${env.MOUNT_PATH}/${env.NPM_CACHE_FOLDER_NAME}:/tmp/.npm:rw -w /app"
+                }
+            }
+            
+            steps {
+                dir("${env.REPO_PATH}/engine") {
+                    
+                    echo "Copying environment file from .env.${env.SELECTED_BRANCH} to .env..."
+                    sh """
+                        set -e
+                        cp .env.${env.SELECTED_BRANCH} .env
+                    """
+                    
+                    
+                    echo "Npm run prod "
+                    //just node_modules folder moving to the root, will be auto cleaned, much faster than running remove command
+                    sh """
+                        set -e
+                        npm run prod
+                       
+                    """
+                    
+                   
+                }
+            }
+        }
+         
+        
+        stage(" Tar Zip code") {
+            agent any
+            steps {
+                script {
+                    echo "Zipping repository contents..."
+                    sh """
+                        tar czf ${env.BUILD_PATH}/${env.SELECTED_BRANCH}.tar.gz \
+                            --exclude=engine/storage/shared/profiles \
+                            --exclude=storage/reports \
+                            --exclude=storage/app/api \
+                            --exclude=engine/node_modules \
+                            --exclude=engine/.git \
+                            --exclude=.git \
+                            --exclude=docker \
+                            -C ${env.JENKINS_WORKSPACE}/${env.REPO_PATH} .
+ 
+                       
+                      
+                      
+                    """
+                }
+            }
+        }
+        
+        stage('Assume role') {
+            agent any
+            steps {
+                script {
+                    
+                    echo 'Assuming role in target AWS account...'
+                  
+                    def assumeRoleOutput = sh(
+                        script: "aws sts assume-role --role-arn ${ROLE_ARN} --role-session-name ${ROLE_SESSION_NAME} --region ${AWS_REGION} --output json",
+                        returnStdout: true
+                    ).trim()
+                    
+                    def json = readJSON text: assumeRoleOutput
+                    env.AWS_ACCESS_KEY_ID = json.Credentials.AccessKeyId
+                    env.AWS_SECRET_ACCESS_KEY = json.Credentials.SecretAccessKey
+                    env.AWS_SESSION_TOKEN = json.Credentials.SessionToken
+                    
+                }
+            }
+        }
+         
+         stage('Upload to S3 bucket') {
+             agent any
+            steps {
+                script { 
+                  sh """
+                        set -e
+                        echo "Copying ${env.JENKINS_WORKSPACE}/${env.BUILD_PATH}/${env.SELECTED_BRANCH}.tar.gz to ${env.S3_BUCKET_NONPROD}"
+                        aws s3 cp  ${env.JENKINS_WORKSPACE}/${env.BUILD_PATH}/${env.SELECTED_BRANCH}.tar.gz ${env.S3_BUCKET_NONPROD}
+                    """
+                }
+            }
+        }
+        
+        
+        
+   
+        stage("Run Puppet Role on Instances") {
+            agent any
+            steps {
+                 script {
+                    def instanceTagFilter = ""
+                    if (env.SELECTED_STACK == "both") {
+                        instanceTagFilter = "devops-ccentre-*-${env.SELECTED_BRANCH}*"
+                    } else {
+                        // For "app" or "worker", include the specific stack value in the tag.
+                        instanceTagFilter = "devops-ccentre-${env.SELECTED_STACK}*-${env.SELECTED_BRANCH}*"
+                    }
+                    echo "Using instance tag filter: ${instanceTagFilter}"
+                     // Query AWS for instance private IP addresses matching the tag
+                     def output = sh(
+                         script: """
+                          aws ec2 describe-instances \
+                            --query 'Reservations[*].Instances[*].{"Name":Tags[?Key==`Name`].Value | [0], "IP":PrivateIpAddress}' \
+                            --filters Name=instance-state-name,Values=running Name=tag:Name,Values=${instanceTagFilter} \
+                            --output text \
+                            --region us-east-1
+                         """,
+                         returnStdout: true
+                     ).trim()
+                    
+                     def parallelSteps = [:]
+                     
+                      output.split("\n").each { line ->
+                        def parts = line.tokenize()
+                        if (parts.size() >= 2) {
+                            def host = parts[1]
+                            def ip = parts[0]
+                            parallelSteps["Puppet apply on ${host} (${ip})"] = {
+                                
+                                echo "Running puppet apply on host: ${host}, IP: ${ip}"
+                                
+                                def hostKey = sh(
+                                    script: "env -u AWS_ACCESS_KEY_ID -u AWS_SECRET_ACCESS_KEY -u AWS_SESSION_TOKEN credstash -r ${env.AWS_REGION} get ${host}.ssh.private.key",
+                                    returnStdout: true
+                                ).trim()
+                                echo "Retrieved SSH key for host ${host}."
+                                def keyFile = "${env.BUILD_PATH}/key_${host}.pem"
+                                writeFile file: keyFile, text: hostKey
+                                sh "chmod 600 ${keyFile}"
+                                
+                                sh """
+                                    ssh -o StrictHostKeyChecking=no -i ${keyFile} ec2-user@${ip} "sudo env FACTER_role=ccentre_code_deploy /opt/puppetlabs/bin/puppet apply --debug /etc/puppetlabs/code/environments/np/manifests/site.pp"
+                                """
+        
+                            }
+                        } else {
+                            echo "Skipping unexpected line: ${line}"
+                        }
+                    }
+
+                    parallel parallelSteps
+
+                }
+            }
+        }
+    
+    }
+    
+     post {
+  always {
+    script {
+      node(env.BUILD_NODE_NAME) {
+        sh '''
+          set +e
+          cd "$WORKSPACE"
+         # Keep latest 2 build_* folders, delete older with sudo
+          ls -1dt build_* 2>/dev/null | tail -n +3 | xargs -r rm -rf --
+
+          echo "Remaining build folders:"
+          ls -1d build_* 2>/dev/null || true
+        '''
+      }
+    }
+  }
+}
+}

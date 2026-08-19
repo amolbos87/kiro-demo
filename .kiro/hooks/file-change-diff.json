@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "FileChangeDiff",
+      "trigger": "PostFileSave",
+      "matcher": "\\.cs$",
+      "description": "Open changed files in diff mode after task completion",
+      "action": {
+        "type": "command",
+        "command": "git diff --name-only HEAD~1 HEAD | ForEach-Object { code -d $_ $_ }"
+      }
+    }
+  ]
+}

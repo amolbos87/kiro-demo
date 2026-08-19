@@ -15,6 +15,7 @@ public class BookDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        
         modelBuilder.Entity<Book>(entity =>
         {
             entity.ToTable("Books");

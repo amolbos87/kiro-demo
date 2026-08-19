@@ -36,6 +36,8 @@ public class BooksControllerTests
 
         // Act
         var result = await _controller.GetAll();
+        var result9 = await _controller.GetAll();
+
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result.Result);
