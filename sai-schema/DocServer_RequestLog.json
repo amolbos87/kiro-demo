@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RequestLog_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "RequestType_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "OS_Type",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "HttpUserAgent_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Date_Received",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Document_Id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Session_Id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "IP_Address",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Prints_Requested",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Response",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

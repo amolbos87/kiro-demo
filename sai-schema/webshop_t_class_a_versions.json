@@ -1,0 +1,108 @@
+[
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_version",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_date",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_version_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_seq",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_legacy_version_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_legacy_seq",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_version_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_cc_parent_version_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_active",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_version_style",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_version_type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_isbn",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_committee_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_aka",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_pages",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_status_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

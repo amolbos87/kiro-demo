@@ -1,0 +1,108 @@
+[
+  {
+    "name": "c_uid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_type",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_title",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_first_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_last_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_email",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_company",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_business_unit",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_department",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_country_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_gdpr_agree",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_gdpr_accepted",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_gdpr_declined",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_customized",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_created",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_updated",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_whitelist_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

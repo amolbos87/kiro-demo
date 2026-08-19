@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Product_Number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_Record_Type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_SKU",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_Type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Record_Type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Region",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_Stream",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_ID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]
+
+
+
+

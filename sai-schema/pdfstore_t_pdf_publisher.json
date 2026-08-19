@@ -1,0 +1,11 @@
+[
+    { "name": "c_pub_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_name", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_username", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_password", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_owner", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_docserver", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_viewer_disable_settings", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_api_access", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_full_package_only", "type": "INTEGER", "mode": "NULLABLE", "description":  "" }
+]

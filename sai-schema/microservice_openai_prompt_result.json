@@ -1,0 +1,19 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "prompt_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "actioned_by", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "sub_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "doc_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "pdf_item_id1", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "pdf_item_id2", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "params", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "result", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "rating", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "deleted", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "input_token", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "output_token", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "request_time", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" },
+    { "name": "job_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" }
+]

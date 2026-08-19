@@ -1,0 +1,38 @@
+[
+  {
+    "name": "c_country_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_iso2",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_iso3",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_clarification",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

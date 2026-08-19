@@ -1,0 +1,13 @@
+[
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_approval_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

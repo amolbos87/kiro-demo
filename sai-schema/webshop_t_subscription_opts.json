@@ -1,0 +1,92 @@
+[
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_logo_img",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_logo_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_logo_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_opts",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_home_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_about_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_help_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_recents_mode",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_order_mode",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_unlock_sites",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_lite",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_terms_content",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_opt_bcrypt_password",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_ncc_package",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_api_download_limit",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_ai_chat_query_usages_limit",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_ai_compare_query_usages_limit",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

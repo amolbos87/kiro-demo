@@ -1,0 +1,133 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Serialno",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "Memberno",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_dept",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "FirstName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LastName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_cont",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_add",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_sub",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_pcode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_cntry",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_phone",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_fax",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AdminEmail",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_notes",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_active",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Comp_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RenewOnline",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegisteredUserID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CreditAccount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "BAPAccount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

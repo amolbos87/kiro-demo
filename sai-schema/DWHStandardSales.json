@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Company",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InvoiceDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "invoicenum",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "invoiceline",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "partnum",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DRA_Start_Date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DRA_End_Date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "First_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Last_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine1",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine2",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine3",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Suburb",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "State",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PostCode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Country",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "EmailAddress",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Order_TransactionID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DataForDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ImportDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

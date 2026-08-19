@@ -1,0 +1,152 @@
+[
+  {
+    "name": "c_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_oid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_item_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_qty",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_price_ea",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_discount_ea",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_tax_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_markup",
+    "type": "FLOAT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_type",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_rid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_tbc",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_tax",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_price_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_is_unlock",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_base_price",
+    "type": "FLOAT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_xrate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_xrate_format",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_purchase_days",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_catalogue_price",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_sites",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_simos",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_royalty_currency",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_royalty_price",
+    "type": "FLOAT64",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

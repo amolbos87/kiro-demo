@@ -1,0 +1,62 @@
+[
+  {
+    "name": "c_country_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_iso2",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_iso3",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_clarification",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_vatable",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_xrate_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_region_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_dhl_country_group_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

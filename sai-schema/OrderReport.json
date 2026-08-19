@@ -1,0 +1,128 @@
+[
+  {
+    "name": "OrderNo",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CartID",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "OrderCreationDate",
+    "type": "DATE",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CustomerID",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CustomerName",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CustomerEmail",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "TransactionID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "MerchantCode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "CardType",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "CardNumber",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "CardholderName",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PaymentCurrency",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "OrderCurrency",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AmountPUBS",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AmountTRN",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "TotalPaymentAmount",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "OrderStatus",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Country",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Region",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "OrderTypes",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ParsedExtra",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

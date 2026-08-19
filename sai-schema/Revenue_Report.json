@@ -1,0 +1,104 @@
+[
+  {
+    "name": "JEDate",
+    "type": "DATE",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Company",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Description",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "GL_Account",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "BookDebitAmount",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "BookCreditAmount",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "GroupID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PostedBy",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PostedDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "JournalCode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "FiscalYear",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "FiscalPeriod",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ARInvoiceNum",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "APInvoiceNum",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "JournalNum",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "JournalLine",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "BookID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

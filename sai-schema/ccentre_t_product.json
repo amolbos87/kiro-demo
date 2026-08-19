@@ -1,0 +1,14 @@
+[
+  { "name": "c_product_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_owner_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_published_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_draft_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_sku", "type": "STRING", "mode": "REQUIRED", "description": "" },
+  { "name": "c_created", "type": "DATETIME", "mode": "REQUIRED", "description": "" },
+  { "name": "c_modified", "type": "DATETIME", "mode": "REQUIRED", "description": "" },
+  { "name": "c_system_name", "type": "STRING", "mode": "REQUIRED", "description": "" },
+  { "name": "c_lock-timestamp", "type": "DATETIME", "mode": "NULLABLE", "description": "" },
+  { "name": "c_product_type_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_product_modified", "type": "DATETIME", "mode": "NULLABLE", "description": "" },
+  { "name": "c_stripped_system_name", "type": "STRING", "mode": "NULLABLE", "description": "" }
+]

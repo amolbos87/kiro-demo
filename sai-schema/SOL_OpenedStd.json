@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "OpenedStdID",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "LogID",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "DocN",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "Datetime",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ViewOnline",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

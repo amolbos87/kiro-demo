@@ -1,0 +1,13 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "doc_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "cc_product_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c2v_activity_rank", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },   
+    { "name": "rank_updated_date", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "request_count", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "last_requested_date", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "openai_doc_faq_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "faq_dirty", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },  
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+]

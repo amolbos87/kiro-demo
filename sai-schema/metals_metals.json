@@ -1,0 +1,24 @@
+[
+  {
+    "name": "internal_number",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "designation",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "standard",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]
+
+
+
+

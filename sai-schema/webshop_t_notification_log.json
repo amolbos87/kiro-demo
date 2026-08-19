@@ -1,0 +1,76 @@
+[
+  {
+    "name": "c_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_user_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_item_id1",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_item_id2",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_notification_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_soft_delete",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_notification_detail",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_version_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_batch",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_read",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "User_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "User_pass",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AllowAdd",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ByIPAddress",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ByReferer",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Tot_lic",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Prodcode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Serialno",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "User_log",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SubscID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Active",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CreateDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ModifiedDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CreatedBy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ModifiedBy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Firstname",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LastName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "EmailId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Job_Title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Division",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Business_Unit",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Phone_number",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AllowEntry",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

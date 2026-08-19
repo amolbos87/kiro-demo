@@ -1,0 +1,11 @@
+[
+  { "name": "c_uid", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_document_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_instance_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_relationship_type_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_related_document_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_related_document_name", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_timestamp", "type": "TIMESTAMP", "mode": "REQUIRED", "description":  "" },
+  { "name": "related_id", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_product_name", "type": "STRING", "mode": "NULLABLE", "description":  "" }
+]

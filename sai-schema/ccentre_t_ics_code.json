@@ -1,0 +1,6 @@
+[
+  { "name": "c_uid", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_name", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_level", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_description", "type": "STRING", "mode": "REQUIRED", "description":  "" }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "c_uid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_webshop_version_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_version_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_artefact_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_box_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_artefact_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_extra_info",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_available_from",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_active",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_is_folder",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

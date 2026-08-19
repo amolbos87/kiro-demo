@@ -1,0 +1,27 @@
+[
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_ics_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_ics_level2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_ics_level1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_version_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

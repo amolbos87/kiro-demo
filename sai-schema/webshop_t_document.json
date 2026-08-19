@@ -1,0 +1,100 @@
+[
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_class",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_stripped",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_aka",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_title",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_sub_title",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_keyword",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_created",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_modified",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_authority_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_updated",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_cc_product_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_internal",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

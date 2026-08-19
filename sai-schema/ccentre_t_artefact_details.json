@@ -1,0 +1,12 @@
+[
+  { "name": "c_instance_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_artefact_type", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_authority_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_active", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_name", "type": "STRING", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_available_from", "type": "DATETIME", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_available_to", "type": "DATETIME", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_external_id", "type": "STRING", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_parent_id", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE", "description": "" }
+]

@@ -1,0 +1,7 @@
+[
+    { "name": "c_authority_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_name", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_desc", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_pub_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_owner", "type": "INTEGER", "mode": "NULLABLE", "description":  "" }
+  ]

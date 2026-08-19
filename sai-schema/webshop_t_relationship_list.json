@@ -1,0 +1,50 @@
+[
+  {
+    "name": "c_uid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_version_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_related_version_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_related_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_relationship_type_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_timestamp",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_relationship_date",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

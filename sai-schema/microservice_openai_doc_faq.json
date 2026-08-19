@@ -1,0 +1,11 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "doc_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "faq", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "version_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "pdf_item_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "sha1_file", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "faq_generated_at", "type": "DATETIME", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+]

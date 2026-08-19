@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Email",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SKU",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ProductName",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "CCProductID",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CCVersionID",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "WatchStartDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "WatchRemoveDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Region",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Country",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ParsedExtra",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

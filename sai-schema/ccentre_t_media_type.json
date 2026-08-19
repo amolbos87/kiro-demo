@@ -1,0 +1,7 @@
+[
+  { "name": "c_uid", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_name", "type": "STRING", "mode": "REQUIRED", "description": "" },
+  { "name": "c_media_category_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_tax_category_id", "type": "INTEGER", "mode": "REQUIRED", "description": "" },
+  { "name": "c_description", "type": "STRING", "mode": "NULLABLE", "description": "" }
+]

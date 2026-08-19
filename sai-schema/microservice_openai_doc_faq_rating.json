@@ -1,0 +1,8 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "openai_doc_faq_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "rating", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "user_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+]

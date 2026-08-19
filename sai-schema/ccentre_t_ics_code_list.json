@@ -1,0 +1,6 @@
+[
+  { "name": "c_uid", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_document_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_instance_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_ics_code_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_stripped",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_owner_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_authority_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cc_product_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

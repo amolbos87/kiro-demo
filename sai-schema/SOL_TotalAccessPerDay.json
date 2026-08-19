@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscriberId",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "LoginDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "DailyCount",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_cancelled",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_cancelled_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_superceded",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_superceded_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

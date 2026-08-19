@@ -1,0 +1,13 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "role", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "content", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "citations", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "chat_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "input_token", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "output_token", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "request_time", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" },
+    { "name": "rating", "type": "INTEGER", "mode": "NULLABLE", "description":  "" }
+  ]

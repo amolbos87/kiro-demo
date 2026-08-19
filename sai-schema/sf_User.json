@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Email",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "IsActive",
+    "type": "BOOL",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

@@ -1,0 +1,27 @@
+
+[
+  {
+    "name": "c_committee_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_committee",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_group_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

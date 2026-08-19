@@ -1,0 +1,21 @@
+[
+    { "name": "c_pub_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_region_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_country_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_pdf", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_repo", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_c2v", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_drm_pdf", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_drm_c2v", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_wm_pdf", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_wm_footer_pdf", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_wm_c2v", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_wm_footer_c2v", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_lic_pdf", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_lic_c2v", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_preview", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_lic_text_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_draftable_viewer", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "c_ai", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "c_settings", "type": "JSON", "mode": "NULLABLE", "description":  "" }
+]

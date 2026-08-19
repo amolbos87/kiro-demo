@@ -1,0 +1,358 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Docn",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "PSoft",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Prefix",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Snumber",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Degn",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Titl",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Year",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "MainTitle",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PartTitle",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SubTitle",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SubSubTitle",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Status",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "StatusNote",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "UpdateNote",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Draft",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Isbn",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "EntryDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "ReceivedDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "MelbReceivedDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "ApprovalDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Published",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "CommentCloses",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "ExpiryDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "WithdrawnDate",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "TASIssueNo",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "TASO",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "DescriptorTIT",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "DescriptorRoot",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Note",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SIC",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SICP",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "HTML",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Price",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "MemberPrice",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "RetailPrice",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Nodiscount",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Pages",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Nasd",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Abstract",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Pdfpath",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PDFFile",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "FreePDF",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "TOC",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Scope",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Application",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "History",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Bookmark",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Available_OSH",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Available_OSU",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Available_OSUBCA",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Available_ASCD",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PDFAvailable_OSH",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PDFAvailable_OSU",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PDFAvailable_OSUBCA",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PDFAvailable_ASCD",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Type",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "TypeOrder",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "AmendNo",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Amendments",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "AmendOnly",
+    "type": "INTEGER",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "TechCommittee",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "PhysicalDescription",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "CompositeProduct",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SupersededDetails",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "ProjectNo",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "ProjectManager",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "UpdateTS",
+    "type": "DATETIME",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "Bibliography",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "SearchDegn",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  },
+  {
+    "name": "EpicorPartID",
+    "type": "STRING",
+    "mode":  "NULLABLE"
+  }
+]

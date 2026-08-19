@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "DocN",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ICSCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

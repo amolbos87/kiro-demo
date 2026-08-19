@@ -1,0 +1,132 @@
+[
+  {
+    "name": "quote_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sub_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "item_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "collection_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "collection_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "is_partial",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publisher_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publisher_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "cat_value",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "price_inc_gst",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "price_exc_gst",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sites",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "users",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "no_of_documents",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "subscription_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "docId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "docPubId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "docPubName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lang",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "status_desc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "price",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ownerId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyPrice",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyCurrency",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "buyAuthorityId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

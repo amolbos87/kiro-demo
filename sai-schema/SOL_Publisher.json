@@ -1,0 +1,78 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Code",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "Name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ViewEnabled",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DRMEnabled",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SolView",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DisplayCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SAView",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ShowInMenu",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "UseAsPackage",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "UseAcronym",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "IsSmall",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "MiniShop",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ShopURL",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

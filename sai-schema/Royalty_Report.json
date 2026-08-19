@@ -1,0 +1,272 @@
+[
+    {
+      "name": "Company",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "VendorID",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "VendorName",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "PartNum",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "PartDescription",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "RoyaltyPrice",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "ForeignRRP",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "ForeignCurCode",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "RoyaltyBasis",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "RoyaltyPercent",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "RoyaltyAmount",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Residual",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "InvoiceNum",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "InvoiceDate",
+      "type": "DATE",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "InvoiceLine",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Quantity",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "NetSalesValueAUD",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "ExtPriceAUD",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "DiscountAUD",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "RoyaltyAmtOwing",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "CurrCode",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Exchange",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "AUDRoyaltyAmount",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Custname",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "State",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Country",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "PDF_DownLoad",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "PartClass",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "PartClassDesc",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "LineComments",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Notes",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Comments",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "CostValue",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "ApplicableSA",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Cost",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra1",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra2",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra3",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra4",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra5",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra6",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra7",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra8",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra9",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    },
+    {
+      "name": "Extra10",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": ""
+    }
+]

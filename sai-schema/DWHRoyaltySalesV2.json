@@ -1,0 +1,381 @@
+[
+
+  {
+    "name": "Company",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "FiscalYear",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "FiscalPeriod",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InvoiceDate",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "invoicenum",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "invoiceline",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "partnum",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "LineDesc",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InvoiceLineComment",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InfoStore_Reference",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Entry",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Qty_Sold",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "line_total_base",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "line_total_lcy",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "MiscChargesBase",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "TaxBase",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "currencycode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Royalty_Amt_LCY",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Royalty_Currency",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Cost_Base",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Royalty_Value",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "BasisType",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "RoyaltyComment",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Royalty_Basis",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "FRRP",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Designation",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Version",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Version_Date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Doc_Num",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_Title",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Material_Number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Publisher",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "CustID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Customer",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DRA_Start_Date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DRA_End_Date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DRA_Period",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "prodcode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Sales_GL",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Eventual_GL_Code",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Destination_Country",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Invoice_Posting_Status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Company_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "First_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Last_Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Account_Number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine1",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine2",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "AddressLine3",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Suburb",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "State",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PostCode",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Country",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "EmailAddress",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Phone_Number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Royalty_Percent",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "NetSales_Value_AUD",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DiscountAUD",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "VendorID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PartDescription",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ClassID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

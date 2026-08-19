@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Line_Seq_Num",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product_ID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Qty",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "GST_Amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Currency",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Discount_Amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DiscPercentage",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Invc_Header",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Line_Amt",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Line_Total_Amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Misc_Charges",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "ORIG_AMOUNT",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Unit_Amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Unit_Amount_in_AUD",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

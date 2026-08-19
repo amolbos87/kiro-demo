@@ -1,0 +1,56 @@
+[
+  {
+    "name": "User_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Company_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Subscriber_Id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Email_Address",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Email_Domain",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Last_Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "First_Names",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Is_Deleted",
+    "type": "BOOL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Date_Created",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

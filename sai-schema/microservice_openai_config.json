@@ -1,0 +1,9 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "feature", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "key", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "value", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "active", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "REQUIRED", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "REQUIRED", "description":  "" }
+]

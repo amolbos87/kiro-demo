@@ -1,0 +1,63 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "CountryID",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "Name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "CountryCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CountryCode3",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Zone",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DefaultPublisher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PostcodeValidation",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Currency",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "EUVatCountryCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TaxRate",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Disabled",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  }
+]

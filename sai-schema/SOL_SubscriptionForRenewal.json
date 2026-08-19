@@ -1,0 +1,80 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscriberId",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscriberName",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Status",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "StatusDesc",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "OrderId",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "RenewalDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InvoiceDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "StateName",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "Product",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "InvoiceAmount",
+    "type": "DECIMAL",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "TotalLics",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "TotalLicsIS",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

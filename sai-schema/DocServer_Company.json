@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Company_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Company_Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Date_Created",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

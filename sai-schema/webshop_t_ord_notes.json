@@ -1,0 +1,53 @@
+[
+  {
+    "name": "c_nid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_rid",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_note",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_owner_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_type",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

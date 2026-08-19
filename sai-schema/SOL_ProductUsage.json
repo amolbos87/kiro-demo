@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscriberId",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Month",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Year",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Locations",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DocumentAccess",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

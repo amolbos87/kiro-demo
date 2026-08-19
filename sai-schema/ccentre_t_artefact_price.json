@@ -1,0 +1,20 @@
+[
+  { "name": "c_artefact_price_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_instance_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_code", "type": "STRING", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_system_id", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_price_type_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_media_type_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_region_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_country_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_value", "type": "DECIMAL", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_currency_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_price_code_id", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_banding_id", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_price_fix", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_epicor_id", "type": "STRING", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_no_discount", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_currency_xml", "type": "INTEGER", "mode":  "NULLABLE", "description":  "" },
+  { "name": "c_watermark_type_id", "type": "INTEGER", "mode":  "REQUIRED", "description":  "" },
+  { "name": "c_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE", "description": "" }
+]

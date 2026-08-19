@@ -1,0 +1,14 @@
+[
+  {
+    "name": "HttpUserAgent_Id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "UserAgent_String",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

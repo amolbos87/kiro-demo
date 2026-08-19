@@ -1,0 +1,102 @@
+[
+  {
+    "name": "c_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_user_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_recipient_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_recipient_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_owner_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_feed_item_type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_order_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_pdf_item_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_res_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_announcement_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_annotation_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_title",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_content",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_json_data",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_read",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_email_sent",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_created",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_modified",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  { "name": "c_instance_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_active", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_parent_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_version_type_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_designation", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+  { "name": "c_published", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_committee_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_isbn", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_pages", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_expires", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_external_id", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_epc_id", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_stripped_designation", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+  { "name": "c_updated_at", "type": "DATETIME", "mode":"NULLABLE", "description": "" }
+]

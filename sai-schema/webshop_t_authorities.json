@@ -1,0 +1,36 @@
+[
+  {
+    "name": "c_authority_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_desc",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_publisher",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_new_schema",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_unlock",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

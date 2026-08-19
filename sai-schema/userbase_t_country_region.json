@@ -1,0 +1,12 @@
+[
+  {
+    "name": "c_country_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_region_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

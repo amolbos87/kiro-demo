@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "RegionCountryID",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "CountryID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "BusinessRegionID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

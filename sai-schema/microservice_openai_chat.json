@@ -1,0 +1,15 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "item_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "doc_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "user_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "sub_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "version_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "res_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "pub_id", "type": "INTEGER", "mode": "NULLABLE", "description":  "" },
+    { "name": "title", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "title_tmp", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "deleted", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+  ]

@@ -1,0 +1,10 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "title", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "desc", "type": "STRING", "mode": "NULLABLE", "description":  "" },
+    { "name": "system_message", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "user_message", "type": "STRING", "mode": "REQUIRED", "description":  "" },
+    { "name": "active", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+]

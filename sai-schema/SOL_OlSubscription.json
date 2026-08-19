@@ -1,0 +1,344 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscID",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "SerialNo",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "Prodcode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Inv_no",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Start_date",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Exp_date",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalDays",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Status",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Security",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AllowIntl",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Printopt",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "UnitsLeft",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DaysLeft",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalPrice",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLics",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsISO",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ToTalLicsIEC",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ToTalLicsDIN",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ToTalLicsJIS",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ToTalLicsETSI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsEN",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsIS",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsAENOR",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsAHAM",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsARI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsANSI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsASHRAE",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsCEI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsCIA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsDEFFORM",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsDEFSTAN",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsFORD",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsGEIA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsNETA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsNFPAS",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsSNZ",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsAAMI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsAPI",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsASA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsAWWA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsMIL",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsNACE",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsSAIGLOBAL",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AllowLex",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "StartLex",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsSAFECULTUR",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsWOODSOL",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsASSESAFETY",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsBHMA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsDE",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsRISSB",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ENA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "TotalLicsENA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "StartENA",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CreationDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Approval_Status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ApprovalID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AllowCode",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "StartCode",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AutoInvoice",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "MFA",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DomainFlag",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DRMFlag",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "EXP_ChangeDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "MachineLimit",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SmartView",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ViewFlag",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]
+

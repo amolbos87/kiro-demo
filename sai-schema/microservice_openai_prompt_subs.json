@@ -1,0 +1,7 @@
+[
+    { "name": "id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "prompt_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "sub_id", "type": "INTEGER", "mode": "REQUIRED", "description":  "" },
+    { "name": "created_at", "type": "DATETIME", "mode": "NULLABLE", "description":  "" },
+    { "name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description":  "" }
+]

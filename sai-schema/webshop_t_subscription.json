@@ -1,0 +1,96 @@
+[
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_desc",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_start",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_end",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_region_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_grid_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_type",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_lid",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_style",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_subscription",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_account",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_disable_drm",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_salesforce_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_salesforce_status",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_sales_ref",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "c_owner_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_drm_provider",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

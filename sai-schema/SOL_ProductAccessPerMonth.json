@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "SubscriberId",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Month",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "Year",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "ProductType",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "MonthlyCount",
+    "type": "INT64",
+    "mode": "REQUIRED",
+    "description": ""
+  }
+]

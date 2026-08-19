@@ -1,0 +1,76 @@
+[
+  {
+    "name": "c_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_res_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_tandc",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_doc_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_opts",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_ownership",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_maximum",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_mode",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_wm_text",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_unlock",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_unlock_sites",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_building_block_pub",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_block_doc_max",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_unlock_calc_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

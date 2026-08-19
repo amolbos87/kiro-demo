@@ -1,0 +1,88 @@
+[
+  {
+    "name": "ExportDate",
+    "type": "DATETIME",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "LogId",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "SessionId",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "UserId",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "SubscId",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "IPAddress",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LoginDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LogoutDate",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Username",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Division",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LastActionTime",
+    "type": "DATETIME",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "LastAction",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "AvailLicsAS",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SearchCount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ICIRUserID",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LastOpenType",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

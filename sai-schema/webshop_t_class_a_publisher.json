@@ -1,0 +1,34 @@
+[
+  {
+    "name": "c_pub_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": ""
+  },
+  {
+    "name": "c_publisher",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "c_desc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_sub_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_group_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "c_opts",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
